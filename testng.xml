@@ -1,0 +1,15 @@
+<suite name="Playwright Suite" parallel="tests" thread-count="2">
+
+    <test name="Login Test">
+        <classes>
+            <class name=""/>
+        </classes>
+    </test>
+
+    <test name="IPL Test">
+        <classes>
+            <class name=""/>
+        </classes>
+    </test>
+
+</suite>
