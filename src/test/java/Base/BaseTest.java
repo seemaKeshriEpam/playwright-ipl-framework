@@ -14,7 +14,7 @@ public class BaseTest {
 
         page = PlaywrightFactory.initBrowser("chromium");
 
-        page.navigate("https://example-ipl-table.com");
+        page.navigate("https://www.iplt20.com/points-table/men");
     }
 
     @AfterMethod

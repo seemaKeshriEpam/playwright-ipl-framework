@@ -47,19 +47,19 @@ public class BasePage {
 
     // WAIT METHODS
 
-    public void waitForElement(String locator) {
-        page.locator(locator)
-                .waitFor(new Locator.WaitForOptions()
-                        .setState(WaitForSelectorState.VISIBLE));
-    }
-
-    public void waitForPageLoad() {
-        page.waitForLoadState();
-    }
-
-    public void waitForTimeout(int milliseconds) {
-        page.waitForTimeout(milliseconds);
-    }
+//    public void waitForElement(String locator) {
+//        page.locator(locator)
+//                .waitFor(new Locator.WaitForOptions()
+//                        .setState(WaitForSelectorState.VISIBLE));
+//    }
+//
+//    public void waitForPageLoad() {
+//        page.waitForLoadState();
+//    }
+//
+//    public void waitForTimeout(int milliseconds) {
+//        page.waitForTimeout(milliseconds);
+//    }
 
     // DROPDOWN METHODS
 
