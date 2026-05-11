@@ -5,8 +5,6 @@ import Page.IPLTablePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static utils.PlaywrightFactory.page;
-
 public class AutoWaitTest extends BaseTest {
 
         @Test
