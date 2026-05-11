@@ -12,6 +12,8 @@
         <classes>
 
             <class name="Tests.IPLTableTest"/>
+            <class name="Tests.AutoWaitTest"/>
+            <class name="Tests.ScreenshotTest"/>
 
         </classes>
 

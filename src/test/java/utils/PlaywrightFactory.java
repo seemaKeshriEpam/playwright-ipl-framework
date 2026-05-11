@@ -7,7 +7,7 @@ public class PlaywrightFactory {
     private static Playwright playwright;
     private static Browser browser;
     private static BrowserContext browserContext;
-    private static Page page;
+    public static Page page;
 
     public static Page initBrowser(String browserName) {
 
