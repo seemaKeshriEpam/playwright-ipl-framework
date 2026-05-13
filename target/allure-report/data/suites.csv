@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","12702","Verify Screenshot And Scroll Functionality","","2026-05-13","passed","2026-05-13","","IPL Points Table Validation","Verify Screenshot And Scroll Functionality",""
-"","10949","Verify IPL Table Data","","2026-05-13","passed","2026-05-13","","IPL Points Table Validation","Verify IPL Table Data",""
-"","10590","Verify Playwright Auto Wait Functionality","","2026-05-13","passed","2026-05-13","","IPL Points Table Validation","Verify Playwright Auto Wait Functionality",""
