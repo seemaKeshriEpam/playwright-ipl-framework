@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="11.921" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework\target\test-classes;C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework\target\classes;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\playwright\1.45.0\playwright-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\AasthaSinha\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\AasthaSinha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\driver\1.45.0\driver-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\driver-bundle\1.45.0\driver-bundle-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AasthaSinha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AasthaSinha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AasthaSinha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\AasthaSinha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Aastha\installs\java\bin"/>
+    <property name="sun.java.command" value="C:\Users\AasthaSinha\AppData\Local\Temp\surefire3460295972500703389\surefirebooter-20260513171153773_3.jar C:\Users\AasthaSinha\AppData\Local\Temp\surefire3460295972500703389 2026-05-13T17-11-53_531-jvmRun1 surefire-20260513171153773_1tmp surefire_0-20260513171153773_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework\target\test-classes;C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework\target\classes;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\playwright\1.45.0\playwright-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\AasthaSinha\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\AasthaSinha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\driver\1.45.0\driver-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\com\microsoft\playwright\driver-bundle\1.45.0\driver-bundle-1.45.0.jar;C:\Users\AasthaSinha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AasthaSinha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AasthaSinha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AasthaSinha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\AasthaSinha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\AasthaSinha\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AasthaSinha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Aastha\installs\java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AasthaSinha\AppData\Local\Temp\surefire3460295972500703389\surefirebooter-20260513171153773_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="AasthaSinha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AasthaSinha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AASTHA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\AasthaSinha\Documents\Playwright\playwright-ipl-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Aastha\installs\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Aastha\installs\java\bin;C:\Aastha\installs\apache-maven-3.9.11\bin;C:\Aastha\installs\Git\cmd;C:\Aastha\installs\nodejs\;C:\Aastha\installs\nodejs\node_modules\npm\bin;C:\Users\AasthaSinha\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\AasthaSinha\AppData\Local\Programs\Python\Python314\;C:\Users\AasthaSinha\AppData\Local\Programs\Python\Launcher\;C:\Users\AasthaSinha\AppData\Local\Microsoft\WindowsApps;C:\Aastha\installs\IntelliJ IDEA Community Edition 2025.2.5\bin;C:\Users\AasthaSinha\AppData\Roaming\npm;C:\Aastha\installs\PyCharm Community Edition 2025.2.5\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify Playwright Auto Wait Functionality&quot;, &quot;IPL Points Table Validation&quot;](1)" classname="runner.TestRunner" time="10.196">
+    <system-out><![CDATA[
+Scenario: Verify Playwright Auto Wait Functionality &amp#27;[90m# src/test/resources/features/IPLPointTableValidation.feature:7&amp#27;[0m
+
+Scenario: Verify IPL Table Data                             &amp#27;[90m# src/test/resources/features/IPLPointTableValidation.feature:11&amp#27;[0m
+
+Scenario: Verify Screenshot And Scroll Functionality       &amp#27;[90m# src/test/resources/features/IPLPointTableValidation.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches the IPL table page&amp#27;[0m                   &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_am_on_the_ipl_points_table_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser scrolls to the bottom of the page&amp#27;[0m              &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_search_for_team()&amp#27;[0m
+Scrolled to bottom successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mScroll should be successful&amp#27;[0m                         &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.scroll_should_be_successful()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches the IPL table page&amp#27;[0m            &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_am_on_the_ipl_points_table_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser scrolls to the bottom of the page&amp#27;[0m       &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_search_for_team()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser fetches the top IPL team&amp#27;[0m                 &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_should_see_as_the_top_team()&amp#27;[0m
+Top Team: GT
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mTop IPL team should be displayed&amp#27;[0m             &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.top_ipl_team_should_be_displayed()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches the IPL table page&amp#27;[0m                    &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_am_on_the_ipl_points_table_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser scrolls to the bottom of the page&amp#27;[0m               &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.i_search_for_team()&amp#27;[0m
+[]
+[ 1 ,   ,       GT   , 12, 8, 4, 0, 0.551, 2111/230.4, 2047/238.0, 16,  WWWWW ]
+[ 2 ,   ,       RCB   , 11, 7, 4, 0, 1.103, 2026/195.1, 1973/212.4, 14,  WLLWW ]
+[ 3 ,   ,       SRH   , 12, 7, 5, 0, 0.331, 2418/237.1, 2295/232.4, 14,  LWLWW ]
+[ 4 ,   ,       PBKS   , 11, 6, 4, 1, 0.428, 2112/192.0, 2095/198.1, 13,  LLLLW ]
+[ 5 ,   ,       CSK   , 11, 6, 5, 0, 0.185, 2023/215.0, 1914/207.3, 12,  WWWLW ]
+[ 6 ,   ,       RR   , 11, 6, 5, 0, 0.082, 1996/200.3, 2057/208.2, 12,  LLWLW ]
+[ 7 ,   ,       DC   , 12, 5, 7, 0, -0.993, 2159/233.2, 2225/217.1, 10,  WLLWL ]
+[ 8 ,   ,       KKR   , 10, 4, 5, 1, -0.169, 1534/172.2, 1622/178.5, 9,  WWWWL ]
+[ 9 ,   ,       MI   , 11, 3, 8, 0, -0.585, 2026/208.5, 2083/202.3, 6,  LWLLL ]
+[ 10 ,   ,       LSG   , 11, 3, 8, 0, -0.907, 1910/218.5, 2004/208.0, 6,  LWLLL ]
+Screenshot captured successfully
+[Batsman, Indian, 
+                                                            
+                                                        ]
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser captures screenshot with name &amp#27;[0m&amp#27;[32m&amp#27;[1m"ipl-scroll-page"&amp#27;[0m &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.user_captures_screenshot_with_name(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Screenshot And Scroll Functionality&quot;, &quot;IPL Points Table Validation&quot;](2)" classname="runner.TestRunner" time="10.479">
+    <system-out><![CDATA[[, ]
+[]
+[]
+[A 22-year old opening batsman who hails from Pune, Ruturaj Gaikwad has been a consistent performer for his state team Maharashtra. He was the highest run-getter for Maharashtra in the league stage of the Syed Mushtaq Ali Trophy 2018-19. At the IPL 2019 Player Auction, the Chennai Super Kings secured his services at his base price of INR 20 lacs., ]
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser prints the IPL points table&amp#27;[0m                      &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.user_prints_the_ipl_points_table()&amp#27;[0m
+Total Teams: 16
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mTotal IPL teams should be greater than 0&amp#27;[0m             &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.total_ipl_teams_should_be_greater_than_0()&amp#27;[0m
+Top Team Points: 2047/238.0
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTop IPL team points should be displayed&amp#27;[0m               &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.top_ipl_team_points_should_be_displayed()&amp#27;[0m
+Is Team Present: true
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeam &amp#27;[0m&amp#27;[32m&amp#27;[1m"MI"&amp#27;[0m&amp#27;[32m should be present in the table&amp#27;[0m              &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.team_should_be_present_in_the_table(java.lang.String)&amp#27;[0m
+GT
+RCB
+SRH
+PBKS
+CSK
+RR
+DC
+KKR
+MI
+LSG
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser prints all IPL team names&amp#27;[0m                        &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.user_prints_all_ipl_team_names()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify IPL Table Data&quot;, &quot;IPL Points Table Validation&quot;](3)" classname="runner.TestRunner" time="10.932">
+    <system-out><![CDATA[Screenshot captured successfully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser captures screenshot with name &amp#27;[0m&amp#27;[32m&amp#27;[1m"ipl-points-table"&amp#27;[0m &amp#27;[90m# stepdefinitions.IPLPointTableValidationStepDefs.user_captures_screenshot_with_name(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
