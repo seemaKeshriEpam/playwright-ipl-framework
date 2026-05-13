@@ -9,9 +9,9 @@
 
         <classes>
 
-            <class name="Tests.IPLTableTest"/>
-            <class name="Tests.AutoWaitTest"/>
-            <class name="Tests.ScreenshotTest"/>
+            <class name="tests.IPLTableTest"/>
+            <class name="tests.AutoWaitTest"/>
+            <class name="tests.ScreenshotTest"/>
 
         </classes>
 

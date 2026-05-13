@@ -10,7 +10,7 @@
 - Parallel execution
 - Auto waits
 - Reusable BasePage methods
-- Page Object Model
+- page Object Model
 
 ## Project Structure
 
@@ -20,7 +20,7 @@ src/test/java
  ├── tests
  └── utils
 
-## How to Run Tests
+## How to Run tests
 
 Run individual tests from IntelliJ
 OR
