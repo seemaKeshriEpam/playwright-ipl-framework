@@ -14,12 +14,12 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <playwright.version>1.52.0</playwright.version>
-        <cucumber.version>7.8.0</cucumber.version>
+        <playwright.version>1.45.0</playwright.version>
+        <cucumber.version>7.15.0</cucumber.version>
         <testng.version>7.8.0</testng.version>
         <lombok.version>1.18.34</lombok.version>
-        <log4j.version>2.25.4</log4j.version>
-        <allure.version>2.22.0</allure.version>
+        <log4j.version>2.23.1</log4j.version>
+        <allure.version>2.24.0</allure.version>
     </properties>
 
     <dependencies>
@@ -101,6 +101,15 @@
                         <include>**/*Runner.java</include>
                         <include>**/*Test.java</include>
                     </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.microsoft.playwright.CLI</mainClass>
+                    <classpathScope>test</classpathScope>
                 </configuration>
             </plugin>
         </plugins>

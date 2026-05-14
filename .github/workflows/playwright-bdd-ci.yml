@@ -33,11 +33,6 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
       - name: Cache Maven packages
         uses: actions/cache@v4
         with:
@@ -50,7 +45,7 @@ jobs:
         run: mvn clean install -DskipTests
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: mvn exec:java -e -Dexec.args="install --with-deps"
 
       - name: Run Tests
         run: >
