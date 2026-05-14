@@ -2,10 +2,10 @@ name: Playwright BDD CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, remote ]
 
   pull_request:
-    branches: [ master ]
+    branches: [ master, remote ]
 
 jobs:
 
