@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"hooks","stepdefinitions"},
+        glue = {"stepdefinitions", "hooks"},
         plugin = {
                 "pretty",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
@@ -15,7 +15,7 @@ import org.testng.annotations.DataProvider;
 
 public class TestRunner extends AbstractTestNGCucumberTests {
     @DataProvider(
-            parallel = true
+//            parallel = true
     )
     @Override()
     public Object[][] scenarios(){
