@@ -60,6 +60,10 @@ public class PlaywrightFactory {
         return tlPage.get();
     }
 
+    public static BrowserContext getBrowserContext() {
+        return tlBrowserContext.get();
+    }
+
     public static void closeBrowser() {
 
         Page page = tlPage.get();

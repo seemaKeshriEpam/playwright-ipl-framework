@@ -1,6 +1,7 @@
 base\BasePage.class
 stepdefinitions\IPLPointTableValidationStepDefs.class
 page\IPLTablePage.class
+stepdefinitions\PlaywrightAdvancedFeaturesStepDef.class
 utils\PlaywrightFactory.class
 runner\TestRunner.class
 hooks\Hook.class

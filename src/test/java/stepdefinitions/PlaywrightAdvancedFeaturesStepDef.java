@@ -9,13 +9,6 @@ public class PlaywrightAdvancedFeaturesStepDef {
 
     Page page = PlaywrightFactory.getPage();
 
-    IPLTablePage iplTablePage = new IPLTablePage();
-    @Given("User launches the IPL website")
-    public void user_launches_the_ipl_website() {
-
-        page.navigate("https://www.iplt20.com/");
-    }
-
     @When("User runs the framework on browser")
     public void user_runs_the_framework_on_browser() {
 
