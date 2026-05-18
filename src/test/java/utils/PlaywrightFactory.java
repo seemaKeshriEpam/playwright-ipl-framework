@@ -14,25 +14,29 @@ public class PlaywrightFactory {
         Playwright playwright = Playwright.create();
         tlPlaywright.set(playwright);
 
+        // Use headless mode in CI environments or when explicitly set
+        boolean isCI = System.getenv("CI") != null;
+        boolean headless = isCI || Boolean.parseBoolean(System.getProperty("headless", "false"));
+
         Browser browser;
         switch (browserName.toLowerCase()) {
 
             case "chromium":
                 browser = playwright.chromium()
                         .launch(new BrowserType.LaunchOptions()
-                                .setHeadless(false));
+                                .setHeadless(headless));
                 break;
 
             case "firefox":
                 browser = playwright.firefox()
                         .launch(new BrowserType.LaunchOptions()
-                                .setHeadless(false));
+                                .setHeadless(headless));
                 break;
 
             case "webkit":
                 browser = playwright.webkit()
                         .launch(new BrowserType.LaunchOptions()
-                                .setHeadless(false));
+                                .setHeadless(headless));
                 break;
 
             default:
@@ -54,6 +58,10 @@ public class PlaywrightFactory {
 
     public static Page getPage() {
         return tlPage.get();
+    }
+
+    public static BrowserContext getBrowserContext() {
+        return tlBrowserContext.get();
     }
 
     public static void closeBrowser() {

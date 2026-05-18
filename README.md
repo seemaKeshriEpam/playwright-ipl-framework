@@ -16,7 +16,37 @@ Java
 Allure Reports
 Git & GitHub
 
+**⏱️ Playwright Auto-Wait Mechanism**
+
+Playwright automatically waits for elements before performing actions. Here's how the auto-wait works internally:
+
+```
+Start timer
+
+while (current_time < timeout) {
+
+    try to find element
+
+    if found:
+        ✓ check visibility
+        ✓ check stability
+        ✓ check enabled
+        ✓ check receivable (receives pointer events)
+
+        if all checks pass:
+            perform action
+            ✅ SUCCESS
+
+    retry again
+}
+
+❌ throw TimeoutError
+```
+
+This eliminates the need for explicit waits like `Thread.sleep()` or custom wait utilities — Playwright handles it automatically!
+
 **📁 Project Structure**
+
 src
  ├── pages              # Page Object Model classes
  ├── runner             # Test runner configuration
@@ -72,3 +102,6 @@ Parallel execution support
 API testing integration with Playwright API
 Dockerized execution environment
 Retry mechanism for flaky tests
+
+
+

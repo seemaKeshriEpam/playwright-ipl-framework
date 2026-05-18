@@ -1,7 +1,7 @@
 Feature: Playwright Advanced Features Demonstration
 
   Background:
-    Given User launches the IPL website
+    Given User launches the IPL table page
 
   Scenario: Verify Cross Browser Execution
     When User runs the framework on browser

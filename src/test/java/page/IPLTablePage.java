@@ -74,4 +74,8 @@ public class IPLTablePage extends BasePage {
             System.out.println(team);
         }
     }
+
+    public boolean isScrolledToBottom() {
+        return (boolean) page.evaluate("() => window.innerHeight + window.scrollY >= document.body.offsetHeight");
+    }
 }
