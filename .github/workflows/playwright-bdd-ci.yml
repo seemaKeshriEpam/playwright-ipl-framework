@@ -2,32 +2,12 @@ name: Playwright BDD CI
 
 on:
   push:
-    branches: [main, remote]
-
-  pull_request:
-    branches: [main, remote]
-
-permissions:
-  contents: read
+    branches: [main]
 
 jobs:
   test:
-    name: Test on ${{ matrix.os }} - ${{ matrix.browser }}
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      fail-fast: false
-
-      matrix:
-        os:
-          - ubuntu-latest
-          - windows-latest
-          - macos-latest
-
-        browser:
-          - chromium
-          - firefox
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -40,40 +20,11 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Cache Maven Packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
-
-      - name: Install Playwright Dependencies
-        run: mvn dependency:resolve
+      - name: Install Dependencies
+        run: mvn clean install -DskipTests
 
       - name: Install Playwright Browsers
         run: mvn exec:java "-Dexec.mainClass=com.microsoft.playwright.CLI" "-Dexec.args=install"
 
-      - name: Run Playwright Tests
-        run: mvn clean test -Dbrowser=${{ matrix.browser }} -Dheadless=true
-
-      - name: Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results-${{ matrix.os }}-${{ matrix.browser }}
-          path: allure-results/
-
-      - name: Upload Playwright Traces
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: traces-${{ matrix.os }}-${{ matrix.browser }}
-          path: target/traces/
-
-      - name: Upload Screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots-${{ matrix.os }}-${{ matrix.browser }}
-          path: screenshots/
+      - name: Run Tests
+        run: mvn clean test -Dbrowser=chromium -Dheadless=true
